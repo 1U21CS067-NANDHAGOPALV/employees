@@ -17,7 +17,7 @@ class ShowEmployee(BaseModel):
     access_type: str
     token_type: str
 
-class Config:
+    class Config:
         from_attributes = True
 
 class EmployeeLogin(BaseModel):
