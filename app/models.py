@@ -9,8 +9,8 @@ class Employee(Base):
     email = Column(String, unique=True, index=True)
     phone = Column(String)
     password = Column(String)
-    access_type = Column(String, default="user")  # Default to "user" access
-    token_type = Column(String, default="bearer")  # Default to "bearer"
+    access_type = Column(String, default="user")
+    token_type = Column(String, default="bearer")
 
 
 

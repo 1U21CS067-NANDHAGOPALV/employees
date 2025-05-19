@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from jose import JWTError, jwt
 
-SECRET_KEY = "your_secret_key_here"  # பாதுகாப்பான ரகசிய விசை
+SECRET_KEY = "your_secret_key_here"  # Secure Secret Key
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
